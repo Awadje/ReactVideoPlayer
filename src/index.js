@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import SearchBar from './components/search_bar';
 import YTSearch from 'youtube-api-search';
-
+import SearchBar from './components/search_bar';
 const API_KEY = 'AIzaSyCJ4HU65aO2pxkXtRM-O31HSi4b5nXiUgU';
 
-const App extends Component {
+class App extends Component {
   constructor(props) {
     super(props);
 
